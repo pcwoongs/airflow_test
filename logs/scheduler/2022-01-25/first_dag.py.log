@@ -2755,3 +2755,38 @@ AttributeError: 'BashOperator' object has no attribute 'set_downstram'
 [2022-01-25 08:39:46,155] {logging_mixin.py:109} INFO - [2022-01-25 08:39:46,154] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-01-25 08:39:46,174] {logging_mixin.py:109} INFO - [2022-01-25 08:39:46,174] {dag.py:2935} INFO - Setting next_dagrun for this_is_first_dag_add_second_task to 2022-01-12 00:00:00+00:00
 [2022-01-25 08:39:46,183] {processor.py:171} INFO - Processing /opt/airflow/dags/first_dag.py took 0.079 seconds
+[2022-01-25 08:40:16,240] {processor.py:163} INFO - Started process (PID=4122) to work on /opt/airflow/dags/first_dag.py
+[2022-01-25 08:40:16,242] {processor.py:642} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-01-25 08:40:16,242] {logging_mixin.py:109} INFO - [2022-01-25 08:40:16,242] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:40:16,278] {processor.py:654} INFO - DAG(s) dict_keys(['this_is_first_dag_add_second_task']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:40:16,289] {logging_mixin.py:109} INFO - [2022-01-25 08:40:16,289] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 08:40:16,309] {logging_mixin.py:109} INFO - [2022-01-25 08:40:16,308] {dag.py:2935} INFO - Setting next_dagrun for this_is_first_dag_add_second_task to 2022-01-12 00:00:00+00:00
+[2022-01-25 08:40:16,317] {processor.py:171} INFO - Processing /opt/airflow/dags/first_dag.py took 0.081 seconds
+[2022-01-25 08:40:46,351] {processor.py:163} INFO - Started process (PID=4147) to work on /opt/airflow/dags/first_dag.py
+[2022-01-25 08:40:46,353] {processor.py:642} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-01-25 08:40:46,353] {logging_mixin.py:109} INFO - [2022-01-25 08:40:46,353] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:40:46,387] {processor.py:654} INFO - DAG(s) dict_keys(['this_is_first_dag_add_second_task']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:40:46,398] {logging_mixin.py:109} INFO - [2022-01-25 08:40:46,398] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 08:40:46,417] {logging_mixin.py:109} INFO - [2022-01-25 08:40:46,417] {dag.py:2935} INFO - Setting next_dagrun for this_is_first_dag_add_second_task to 2022-01-12 00:00:00+00:00
+[2022-01-25 08:40:46,425] {processor.py:171} INFO - Processing /opt/airflow/dags/first_dag.py took 0.079 seconds
+[2022-01-25 08:41:16,488] {processor.py:163} INFO - Started process (PID=4183) to work on /opt/airflow/dags/first_dag.py
+[2022-01-25 08:41:16,489] {processor.py:642} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-01-25 08:41:16,490] {logging_mixin.py:109} INFO - [2022-01-25 08:41:16,490] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:41:16,527] {processor.py:654} INFO - DAG(s) dict_keys(['this_is_first_dag_add_second_task']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:41:16,538] {logging_mixin.py:109} INFO - [2022-01-25 08:41:16,538] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 08:41:16,560] {logging_mixin.py:109} INFO - [2022-01-25 08:41:16,559] {dag.py:2935} INFO - Setting next_dagrun for this_is_first_dag_add_second_task to 2022-01-12 00:00:00+00:00
+[2022-01-25 08:41:16,569] {processor.py:171} INFO - Processing /opt/airflow/dags/first_dag.py took 0.085 seconds
+[2022-01-25 08:41:46,599] {processor.py:163} INFO - Started process (PID=4209) to work on /opt/airflow/dags/first_dag.py
+[2022-01-25 08:41:46,602] {processor.py:642} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-01-25 08:41:46,602] {logging_mixin.py:109} INFO - [2022-01-25 08:41:46,602] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:41:46,638] {processor.py:654} INFO - DAG(s) dict_keys(['this_is_first_dag_add_second_task']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:41:46,650] {logging_mixin.py:109} INFO - [2022-01-25 08:41:46,649] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 08:41:46,670] {logging_mixin.py:109} INFO - [2022-01-25 08:41:46,670] {dag.py:2935} INFO - Setting next_dagrun for this_is_first_dag_add_second_task to 2022-01-12 00:00:00+00:00
+[2022-01-25 08:41:46,678] {processor.py:171} INFO - Processing /opt/airflow/dags/first_dag.py took 0.083 seconds
+[2022-01-25 08:42:16,742] {processor.py:163} INFO - Started process (PID=4234) to work on /opt/airflow/dags/first_dag.py
+[2022-01-25 08:42:16,743] {processor.py:642} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-01-25 08:42:16,744] {logging_mixin.py:109} INFO - [2022-01-25 08:42:16,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:42:16,777] {processor.py:654} INFO - DAG(s) dict_keys(['this_is_first_dag_add_second_task']) retrieved from /opt/airflow/dags/first_dag.py
+[2022-01-25 08:42:16,787] {logging_mixin.py:109} INFO - [2022-01-25 08:42:16,787] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-25 08:42:16,807] {logging_mixin.py:109} INFO - [2022-01-25 08:42:16,807] {dag.py:2935} INFO - Setting next_dagrun for this_is_first_dag_add_second_task to 2022-01-12 00:00:00+00:00
+[2022-01-25 08:42:16,815] {processor.py:171} INFO - Processing /opt/airflow/dags/first_dag.py took 0.077 seconds
